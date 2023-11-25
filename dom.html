@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This ia My Title.</title>
+<link rel="stylesheet" href="D:\CSS\styledom.css">
+</head>
+<body>
+<h1>This is DOM demo program.</h1>
+<input id="num_1"><br>
+<input id="num_2"><br>
+<button onclick="add()">ADD</button>
+<p id="result">RESULT</p>
+<script>
+var box_1=document.getElementById("num_1")
+var box_2=document.getElementById("num_2")
+var result=document.getElementById("result")
+function add()
+{
+var box1=Number(box_1.value)
+var box2=Number(box_2.value)
+var total=box1+box2
+result.textContent=total
+}
+</script>
+</body>
+</html>

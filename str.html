@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM</title>
+</head>
+<body>
+<p id="para">Hello World By Using HTML!</p>
+<button id="but">Click</button>
+<script>
+function myfun_1()
+{
+document.getElementById("para").textContent="Hello World By Using DOM";
+}
+function myfun_2()
+{
+document.getElementById("para").style.color="green";
+}
+a=document.getElementById("but")
+a.addEventListener("mouseup",myfun_1)
+a.addEventListener("mouseover",myfun_2)
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="D:\CSS\calcstyle.css">
+<script src="D:\JAVASCRIPT\calculator.js"></script>
+</head>
+<body>
+<h1>MINI CALCULATOR</h1>
+<div>
+<table>
+<form name="form1">
+<input type="text" name="result"><br>
+<tr>
+<td><input type="button" value="7" onclick="form1.result.value=form1.result.value+'7'"></td>
+<td><input type="button" value="8" onclick="form1.result.value=form1.result.value+'8'"></td>
+<td><input type="button" value="9" onclick="form1.result.value=form1.result.value+'9'"></td>
+<td><input type="button" value="*" onclick="form1.result.value=form1.result.value+'*'"></td>
+</tr>
+<tr>
+<td><input type="button" value="4" onclick="form1.result.value=form1.result.value+'4'"></td>
+<td><input type="button" value="5" onclick="form1.result.value=form1.result.value+'5'"></td>
+<td><input type="button" value="6" onclick="form1.result.value=form1.result.value+'6'"></td>
+<td><input type="button" value="-" onclick="form1.result.value=form1.result.value+'-'"></td>
+</tr>
+<tr>
+<td><input type="button" value="1" onclick="form1.result.value=form1.result.value+'1'"></td>
+<td><input type="button" value="2" onclick="form1.result.value=form1.result.value+'2'"></td>
+<td><input type="button" value="3" onclick="form1.result.value=form1.result.value+'3'"></td>
+<td><input type="button" value="+" onclick="form1.result.value=form1.result.value+'+'"></td>
+</tr>
+<tr>
+<td><input type="button" value="/" onclick="form1.result.value=form1.result.value+'/'"></td>
+<td><input type="button" value="0" onclick="form1.result.value=form1.result.value+'0'"></td>
+<td><input type="button" value="." onclick="form1.result.value=form1.result.value+'.'"></td>
+<td><input type="button" value="=" onclick="form1.result.value=eval(form1.result.value)"></td>
+<input type="button" value="Clear All" onclick="form1.result.value=''">
+</tr>
+</form>
+</table>
+</div>
+</body>
+</html>
